@@ -7,9 +7,10 @@ public class firstGui {
 		JFrame frame = new JFrame ("First Gui"); 
 	frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
 		frame.setSize(400,400);
-		JButton button = new JButton("Click");
+		JButton button = new JButton("PRESS");
 		frame.getContentPane().add(button);
 		frame.setVisible(true);
+		
 
 	}
 
